@@ -1,0 +1,55 @@
+.sidebar__chats {
+    background-color: var(--drk-secondary-background);
+    transition: all 0.4s ease-in-out;
+    flex: 1;
+    overflow: auto;
+  }
+  
+  .sidebar__chats .sidebar__chat {
+    display: flex;
+    padding: 5px 5px 0px 0px;
+    cursor: pointer;
+  }
+  
+  .is__active > .sidebar__chat {
+    background-color: var(--drk-primary-background);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .sidebar__chats .sidebar__chat:hover {
+    background-color: var(--drk-primary-background);
+  }
+  
+  .sidebar__chat .avatar {
+    width: 45px;
+    margin: 10px;
+    height: 45px;
+  }
+  
+  .sidebar__chats__initial {
+    color: var(--drk-font-color);
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .sidebar__chat__info {
+    flex: 1;
+    border-bottom: 0.1rem solid var(--drk-primary-background);
+    transition: all 0.4s ease-in-out;
+    padding: 11px;
+  }
+  
+  .sidebar__chat__info h3 {
+    color: var(--drk-font-default);
+    transition: all 0.4s ease-in-out;
+    font-weight: 500;
+    padding-bottom: 5px;
+  }
+  
+  .sidebar__chat__info p {
+    color: var(--drk-font-color);
+    transition: all 0.4s ease-in-out;
+    font-size: 0.9rem;
+  }
